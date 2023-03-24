@@ -20,7 +20,7 @@
     car = Car.new do |c|
       c.color = "Red"
       c.plate_number = "ABC 1234"
-    	c.manufacturer = "Toyota"
+      c.manufacturer = "Toyota"
     end
     ```
     
@@ -33,18 +33,18 @@ Create a class that uses this syntax
 Bootcamp.new do
   topic "Inheritance" do
     desc "All about inheritance"
-	  details do
-	    lecturer "Ady"
-	    date "2023-3-28"
-	  end
+    details do
+      lecturer "Ady"
+      date "2023-3-28"
+    end
   end
 
   topic "Closures" do
     desc "Blocks, Procs and Lambdas"
-	  details do
-	    lecturer "Ady"
-	    date "2023-3-28"
-	  end
+    details do
+      lecturer "Ady"
+      date "2023-3-28"
+    end
   end
 end
 ```
