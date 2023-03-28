@@ -6,8 +6,12 @@ class Car
   end
 end
 
-# car = Car.new do |c|
-#   c.color = "Red"
-#   c.plate_number = "ABC 1234"
-#   c.manufacturer = "Toyota"
-# end
+car = Car.new do |c|
+  c.color = "Red"
+  c.plate_number = "ABC 1234"
+  c.manufacturer = "Toyota"
+end
+
+puts "Car color #{car.color}"
+puts "Car plate_number #{car.plate_number}"
+puts "Car  manufacturer #{car.manufacturer}"
